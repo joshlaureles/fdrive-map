@@ -1,0 +1,8 @@
+CABINA: cómo obtener el APK (sin instalar nada en tu PC)
+1. Crea una cuenta gratis en github.com y un repositorio nuevo (privado o público).
+2. Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github) a la rama "main".
+3. Entra a la pestaña "Actions": se compila solo (3-6 min). Si no arranca, elige "Compilar APK" > "Run workflow".
+4. Abre la ejecución terminada, baja a "Artifacts" y descarga "cabina-apk". Dentro está app-debug.apk.
+5. Pásalo al celular, permite "instalar apps desconocidas", instálalo y concede el permiso de ubicación.
+Requiere internet para calles, búsqueda y rutas (servidores públicos de OpenStreetMap: uso ligero/personal).
+Úsala con el celular fijo en un soporte; no la manipules mientras manejas.
